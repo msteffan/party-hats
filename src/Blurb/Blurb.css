@@ -1,14 +1,32 @@
-.blurb--wrapper {
+.Blurb--wrapper {
   border: 10px solid #F64F5F;
   width: 40%;
   align-self: flex-end;
   float: right;
+  position: relative;
 }
 
-.blurb--text {
+.Blurb--text {
   font-family: 'Georgia', serif;
   color: #F64F5F;
   font-size: 1.5em;
   padding: 10px 40px;
   line-height: 1.25em;
+}
+
+.Blurb--arrow {
+  margin: auto;
+  top: -32px;
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  border-right: 10px solid #F64F5F;
+  border-bottom: 10px solid #F64F5F;
+  position: absolute;
+  right: 50px;
 }
