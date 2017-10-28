@@ -1,0 +1,25 @@
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.App--header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App--wrapper {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.App--title {
+  font-size: 7em;
+  font-weight: 600;
+  font-family: 'Helvetica', sans-serif;
+  color: #F64F5F;
+  margin-bottom: 0;
+  display: inline;
+}

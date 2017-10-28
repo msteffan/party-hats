@@ -1,0 +1,18 @@
+
+.Nav {
+  color: #2E9DFA;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav--item {
+  display: inline-block;
+  list-style: none;
+}
+
+.Nav--separator {
+  padding: 0 10px;
+}

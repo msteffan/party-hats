@@ -1,0 +1,12 @@
+.Items--wrapper {
+  color: #2E9DFA;
+  font-family: 'Georgia', serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.Items--item {
+  list-style: none;
+}

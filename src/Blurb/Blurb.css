@@ -1,0 +1,14 @@
+.blurb--wrapper {
+  border: 10px solid #F64F5F;
+  width: 40%;
+  align-self: flex-end;
+  float: right;
+}
+
+.blurb--text {
+  font-family: 'Georgia', serif;
+  color: #F64F5F;
+  font-size: 1.5em;
+  padding: 10px 40px;
+  line-height: 1.25em;
+}
