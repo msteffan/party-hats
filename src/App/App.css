@@ -13,6 +13,7 @@
 .App--wrapper {
   display: inline;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .App--title {
