@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header title="Melissa DePuydt" />
         <Blurb />
         <section className="App--intro">
           <MainItems />

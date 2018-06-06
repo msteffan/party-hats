@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <header className="App--header">
         <div className="App--wrapper">
-          <h1 className="App--title">Melissa DePuydt</h1>
+          <h1 className="App--title">{this.props.title}</h1>
           <Nav />
         </div>
       </header>

@@ -9,6 +9,7 @@ const Router = () => (
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/contact" component={Contact} />
+      <Route path="/:linkId" component={App} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
