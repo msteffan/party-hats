@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header'
-import MainItems from '../MainItems/MainItems'
 import Blurb from '../Blurb/Blurb'
 
 class App extends Component {
@@ -10,7 +9,7 @@ class App extends Component {
         <Header title="Melissa DePuydt" />
         <Blurb text="I've worked on a variety of projects throughout my career." />
         <section className="App--intro">
-          <Project />
+          {/* <Project /> */}
         </section>
       </div>
     );
