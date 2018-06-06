@@ -1,0 +1,20 @@
+.Project {
+  display: flex;
+}
+
+.Project div:nth-child(1) {
+  margin-right: 100px;
+}
+
+.Project--Image {
+  border: 10px solid lime;
+}
+
+.Project--Button {
+  border-radius: 0;
+  border: 0;
+  height: 50px;
+  color: #fff;
+  width: 75%;
+  background-color: red;
+}

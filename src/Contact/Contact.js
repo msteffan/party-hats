@@ -3,7 +3,7 @@ import MainItems from '../MainItems/MainItems.js'
 import Blurb from '../Blurb/Blurb.js'
 import Header from '../Header/Header'
 
-class App extends Component {
+class Contact extends Component {
   render() {
     return (
       <div className="App">
@@ -17,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Contact;
