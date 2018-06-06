@@ -6,7 +6,7 @@ class Blurb extends Component {
     return (
       <aside className="Blurb--wrapper">
         <div className="Blurb--arrow"></div>
-        <p className="Blurb--text">I'm here to build kickass front-end websites and chew bubble gum...and I'm all out of bubble gum.</p>
+        <p className="Blurb--text">{this.props.text}</p>
       </aside>
     );
   }
