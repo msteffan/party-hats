@@ -15,7 +15,7 @@ class Project extends Component {
         </div>
         <div>
           <h3 className="Project--Title Project--Title__result">The Result</h3>
-          <img className="Project--Image" src={details.image} alt={details.nae} />
+          <img className="Project--Image" src={details.image} alt={details.name} />
         </div>
       </article>
     );
