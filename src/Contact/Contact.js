@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div className="App">
         <Header title="Melissa DePuydt" />
-        <Blurb />
+        <Blurb text="Call me, beep me if you wanna reach me. Or, you know, email works, too." />
         <section className="App--intro">
           <MainItems />
         </section>

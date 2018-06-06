@@ -12,6 +12,10 @@ class Nav extends Component {
           </li>
           <span className="Nav--separator">|</span>
           <li className="Nav--item">
+            <Link to="/projects">Projects</Link>
+          </li>
+          <span className="Nav--separator">|</span>
+          <li className="Nav--item">
             <Link to="/about">About</Link>
           </li>
           <span className="Nav--separator">|</span>
